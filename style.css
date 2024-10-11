@@ -1,0 +1,283 @@
+/* Estilos generales */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Estilos de encabezado */
+
+header {
+    background-color: #1f6330;
+    color: #ffffff;
+    background-image: url("img/fondo1.png");
+    height: 100%;
+    font-size: 150%;
+    text-align: center;
+    padding: 10%;
+    background-size:contain;
+    background-position: center; /* La imagen se centrará en el encabezado */
+    background-repeat:repeat-y;
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 0;
+    padding: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    background-color: #3d8b47;
+    --text-color: #ffffff;
+    border-radius: 4px;
+}
+
+/* Estilos de secciones */
+
+section {
+    margin-bottom: 0;
+    font-size: 20px
+}
+
+h2 {
+    color: #1f6330;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 0;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+h3 {
+    color: #1f6330;
+}
+
+p {
+    color: #555;
+}
+
+/* Estilos de pie de página */
+
+footer {
+    background-color: #1f6330;
+    color: #fff;
+    text-align: center;
+    --text-color: #ffffff;
+}
+
+/* Paleta de colores */
+
+:root {
+    --primary-color: #3d8b47;
+    --secondary-color: #1f6330;
+    --text-color: #000000;
+}
+
+body {
+    background-color: #fff;
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: #7bff61;
+    text-shadow: 
+        -1px -1px 0 #000,  /* Sombra superior izquierda */
+        1px -1px 0 #000,   /* Sombra superior derecha */
+        -1px 1px 0 #000,   /* Sombra inferior izquierda */
+        1px 1px 0 #000;    /* Sombra inferior derecha */
+}
+
+nav ul li a {
+    background-color: var(--primary-color);
+}
+
+h2,
+h3 {
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--text-color);
+    text-align: justify;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#carrito-lista li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#carrito {
+    background-color: rgb(194, 194, 194);
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+#filtros {
+    font-size: 22px
+}
+
+select {
+    font-size: 22px;
+}
+
+input {
+    font-size: 22px;
+}
+
+#boton-inicio {
+    font-size: 35px;
+    --text-color: #ffffff;
+    border-radius: 5px;
+    background-color: #3d8b47;
+    text-align: center;
+}
+
+#cuerpo {
+    padding: 20px;
+}
+
+#lista-productos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: space-between;
+}
+
+.producto {
+    background-color: rgb(255, 255, 255);
+}
+
+.descripcion {
+    text-align: justify;
+}
+
+/* Estilos para el contenido de la ventana */
+.contenido {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    /* Asegura que la ventana emergente esté en la parte superior */
+    overflow: scroll;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.subcontenido {
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    /* Estilos para celulares */
+    #lista-productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+    }
+
+    .contenido {
+        display: none;
+        position: fixed;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+    }
+
+    .subcontenido {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+        width: auto;
+    }
+}
+
+
+h4 {
+    color: #2600ff;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 15%; /* Ancho cuadrado */
+    height: 15%; /* Altura cuadrada */
+    background-image: url(img/whatsappboton.png); /* Ruta de tu imagen */
+    background-size: cover; /* Para que la imagen se ajuste al botón */
+    text-indent: -9999px; /* Oculta el texto del botón */
+    cursor: pointer;
+    background-position: center; /* Posición centrada de la imagen */
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}

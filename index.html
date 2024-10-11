@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JyJ impresiones 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><Br>JyJ</Br>impresiones 3D</h1>
+        <Br></Br>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a
+                        href="https://maps.app.goo.gl/39EYWtpdQ1wjZnYEA">Dirección</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cuerpo">
+            <section id="inicio">
+                <h2>Bienvenidos a nuestra tienda de impresiones 3D</h2>
+                <p>En nuestra tienda ofrecemos una amplia selección de productos de impresión 3D, en los que se incluyen
+                    figuras de personajes, mates, adornos, lamparas, porta joysticks y celulares, llaveros, planteras
+                    con o
+                    sin plantas entre otros. Estamos ubicados en Posadas, en la provincia de Misiones.</p>
+            </section>
+            <section>
+                <h2>Productos</h2>
+                <section id="productos">
+                    <div id="filtros">
+                        <Br><label for="categoria">Categoría:</label>
+                        <select id="categoria">
+                            <option value="">Todos</option>
+                            <option value="Mates">Mates</option>
+                            <option value="Lamparas">Lamparas</option>
+                            <option value="Macetas">Macetas</option>
+                            <option value="Adornos">Adornos</option>
+                            <option value="Figuras">Figuras</option>
+                            <option value="Gamer">Gamer</option>
+                            <option value="Llaveros">Llaveros</option>
+                            <option value="Cocina">Cocina</option>
+                            <option value="Herramientas">Herramientas</option>
+                            <option value="Baño">Baño</option>
+                            <option value="Mascotas">Mascotas</option>
+                            <option value="Otros">Otros</option>
+                        </select></Br>
+                        <Br><label for="oferta">Mostrar:</label>
+                        <select id="oferta">
+                            <option value="">Todos los precios</option>
+                            <option value="true">En oferta</option>
+                        </select></Br>
+                        <Br><label for="precio">Precio máximo:</label>
+                        <input type="number" id="precio" min="3000"></Br>
+                        <Br></Br>
+                    </div>
+                    <Br></Br>
+                    <div id="lista-productos">
+
+                        <!-- aquí se cargarán los productos con JavaScript -->
+
+                    </div>
+                    <div id="carrito" class="carrito">
+                        <h2>Lista de consulta</h2>
+                        <ul id="carrito-lista" class="carrito-lista">
+                            <!-- Aquí van los productos seleccionados -->
+                        </ul>
+                        <button id="btn-whatsapp">Consular stock de la lista</button>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Ir a inicio</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <h2>Contacto</h2>
+            <section id="contacto">
+                <a href="https://wa.me/3765188420?text=¡Hola! Quiero obtener más información sobre impresiones 3D."><img src="img/whatsapp.jpg" width="100"></a>
+                <a href="https://www.facebook.com/jyj3d"><img src="img/facebook.jpg" width="90"></a>
+                <a href="https://www.instagram.com/jyjimpresion3d/"><img src="img/instagram.jpg" width="100"></a>
+                <a class="whatsapp-button" href="https://wa.me/3765188420?text=¡Hola! Quiero obtener más información sobre impresiones 3D." target="_blank">WhatsApp</a>
+                <a href="https://www.tiktok.com/@jyj3d"><img src="img/tiktok.png" width="100"></a>
+            </section>
+    </main>
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+    <footer>
+        JyJ impresiones 3D &copy; 2024
+    </footer>
+
+</body>
+
+</html>
