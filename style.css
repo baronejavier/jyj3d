@@ -17,15 +17,13 @@ a {
 header {
     background-color: #1f6330;
     color: #ffffff;
-    background-image: url("img/fondo1.png");
+    background-image: url("img/fondo1.jpg");
     height: 100%;
     font-size: 150%;
     text-align: center;
     padding: 10%;
-    background-size:contain;
+    background-size:cover;
     background-position: center; /* La imagen se centrará en el encabezado */
-    background-repeat:repeat-y;
-    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
 }
 
 h1 {
@@ -103,8 +101,8 @@ footer {
 /* Paleta de colores */
 
 :root {
-    --primary-color: #3d8b47;
-    --secondary-color: #1f6330;
+    --primary-color: #1b0cf8;
+    --secondary-color: #0044ff;
     --text-color: #000000;
 }
 
@@ -119,7 +117,7 @@ a {
 
 header {
     background-color: var(--secondary-color);
-    color: #7bff61;
+    color: #ff00ff;
     text-shadow: 
         -1px -1px 0 #000,  /* Sombra superior izquierda */
         1px -1px 0 #000,   /* Sombra superior derecha */
