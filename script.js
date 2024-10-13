@@ -855,7 +855,7 @@ function mostrarProductos() {
         <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
         <h4>EN OFERTA HASTA AGOTAR STOCK!</h4>
             <h3>${producto.nombre}</h3>
-            <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
+            <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Consultar stock</button>
             <p class="precio"><del>$${producto.precio}</del> $${precioactual} x ${producto.unidades} ud.</p>
         </div>
     `;
@@ -868,7 +868,7 @@ function mostrarProductos() {
             <div class="producto" id=${idProducto}>
             <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
                 <h3>${producto.nombre}</h3>
-                <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Agregar a la lista de consulta</button>
+                <button class="agregar-carrito" data-nombre="${producto.nombre}" data-precio="${precioactual}">Consultar stock</button>
                 <p class="precio">$${precioactual} x ${producto.unidades} ud.</p>
             </div>
         `;
@@ -953,7 +953,12 @@ listaProductos.appendChild(division);
             const producto = { nombre, precio };
             productosSeleccionados.push(producto);
             mostrarCarrito();
-            alert("Agregado a la lista para consultar stock");
+    
+            const confirmar = confirm("Producto agregado a la lista. ¿Deseas ver la lista completa ahora?");
+            if (confirmar) {
+                // Redirigir a una página donde se muestre la lista de productos seleccionados
+                window.location.href = "#carrito-lista"; // Cambia el enlace por la URL de tu página
+            }
         });
     });
 

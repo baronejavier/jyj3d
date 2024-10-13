@@ -53,6 +53,7 @@ nav ul li a {
     background-color: #3d8b47;
     --text-color: #ffffff;
     border-radius: 4px;
+    padding: 10px;
 }
 
 /* Estilos de secciones */
