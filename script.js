@@ -1,7 +1,7 @@
 const productos = [
     {
         nombre: "Set de mate de Stitch",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 26000,
         unidades: 1,
@@ -10,7 +10,7 @@ const productos = [
     },
     {
         nombre: "Mates grandes",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 13000,
         unidades: 1,
@@ -19,7 +19,7 @@ const productos = [
     },
     {
         nombre: "Mate de Rugby",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 12000,
         unidades: 1,
@@ -28,7 +28,7 @@ const productos = [
     },
     {
         nombre: "Mate de Pokemon",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 11500,
         unidades: 1,
@@ -37,7 +37,7 @@ const productos = [
     },
     {
         nombre: "Mate de carpincho",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 12000,
         unidades: 1,
@@ -46,7 +46,7 @@ const productos = [
     },
     {
         nombre: "Mate y posavaso Hello Kitty",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 14000,
         unidades: 2,
@@ -55,7 +55,7 @@ const productos = [
     },
     {
         nombre: "Mates de personajes",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 10000,
         unidades: 1,
@@ -64,7 +64,7 @@ const productos = [
     },
     {
         nombre: "Mates temáticos",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 8000,
         unidades: 1,
@@ -73,16 +73,16 @@ const productos = [
     },
     {
         nombre: "Mates personalizados",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
-        precio: 9500,
+        precio: 11000,
         unidades: 1,
         imagen: "img/mate personalizado.jpg",
         descripcion: "Mates personalizados, impresos con material PLA. El precio es por unidad."
     },
     {
         nombre: "Despolvillador de yerba mate personalizado",
-        oferta: false,
+        oferta: true,
         categoria: "Mates",
         precio: 17500,
         unidades: 1,
@@ -91,7 +91,7 @@ const productos = [
     },
     {
         nombre: "Estructra de lampara de astronauta",
-        oferta: false,
+        oferta: true,
         categoria: "Lamparas",
         precio: 14500,
         unidades: 1,
@@ -100,7 +100,7 @@ const productos = [
     },
     {
         nombre: "Estructra de lampara de la Tierra",
-        oferta: false,
+        oferta: true,
         categoria: "Lamparas",
         precio: 11500,
         unidades: 1,
@@ -109,7 +109,7 @@ const productos = [
     },
     {
         nombre: "Macetas de Afrodita y Venus",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 13500,
         unidades: 1,
@@ -118,7 +118,7 @@ const productos = [
     },
     {
         nombre: "Macetas Baby Groot",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 14500,
         unidades: 1,
@@ -136,7 +136,7 @@ const productos = [
     },
     {
         nombre: "Macetas de David/ Bob Patiño",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 13000,
         unidades: 1,
@@ -145,7 +145,7 @@ const productos = [
     },
     {
         nombre: "Macetas de animales",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 14000,
         unidades: 2,
@@ -154,7 +154,7 @@ const productos = [
     },
     {
         nombre: "Macetas de meditación",
-        oferta: false,
+        oferta: true,
         categoria: "Macetas",
         precio: 6500,
         unidades: 1,
@@ -163,7 +163,7 @@ const productos = [
     },
     {
         nombre: "Florero dona y maceta David",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 19500,
         unidades: 2,
@@ -172,7 +172,7 @@ const productos = [
     },
     {
         nombre: "Gatos enamorados 20 cm",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 17000,
         unidades: 1,
@@ -181,7 +181,7 @@ const productos = [
     },
     {
         nombre: "Elefantes de la fortuna",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 10000,
         unidades: 1,
@@ -190,7 +190,7 @@ const productos = [
     },
     {
         nombre: "Porta lápices",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 11000,
         unidades: 1,
@@ -199,7 +199,7 @@ const productos = [
     },
     {
         nombre: "Otros adornos",
-        oferta: false,
+        oferta: true,
         categoria: "Adornos",
         precio: 7000,
         unidades: 1,
@@ -433,7 +433,7 @@ const productos = [
     },
     {
         nombre: "Llaveros de Flork",
-        oferta: false,
+        oferta: true,
         categoria: "Llaveros",
         precio: 12000,
         unidades: 10,
@@ -442,7 +442,7 @@ const productos = [
     },
     {
         nombre: "Llaveros de equipos",
-        oferta: false,
+        oferta: true,
         categoria: "Llaveros",
         precio: 12500,
         unidades: 10,
@@ -469,7 +469,7 @@ const productos = [
     },
     {
         nombre: "Llaveros animales porta celulares",
-        oferta: false,
+        oferta: true,
         categoria: "Llaveros",
         precio: 6000,
         unidades: 5,
@@ -478,7 +478,7 @@ const productos = [
     },
     {
         nombre: "Set para cocina de Bob esponja",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 17000,
         unidades: 2,
@@ -487,7 +487,7 @@ const productos = [
     },
     {
         nombre: "Porta esponja de Homero Simpson",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 7500,
         unidades: 1,
@@ -496,7 +496,7 @@ const productos = [
     },
     {
         nombre: "Cortadores de Mario",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 5000,
         unidades: 3,
@@ -523,7 +523,7 @@ const productos = [
     },
     {
         nombre: "Porta latas de cerveza",
-        oferta: false,
+        oferta: true,
         categoria: "Cocina",
         precio: 7500,
         unidades: 1,
@@ -532,7 +532,7 @@ const productos = [
     },
     {
         nombre: "Jabonera y porta cepillos",
-        oferta: false,
+        oferta: true,
         categoria: "Baño",
         precio: 12000,
         unidades: 1,
@@ -559,7 +559,7 @@ const productos = [
     },
     {
         nombre: "Porta espiral Dr. Strange",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 11500,
         unidades: 1,
@@ -568,7 +568,7 @@ const productos = [
     },
     {
         nombre: "Soporte para computadoras portatiles netbook (15 pulgadas)",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 18000,
         unidades: 1,
@@ -595,7 +595,7 @@ const productos = [
     },
     {
         nombre: "Flauta dulce con forma de dragón",
-        oferta: false,
+        oferta: true,
         categoria: "Otros",
         precio: 11500,
         unidades: 1,
@@ -642,7 +642,7 @@ function mostrarProductos() {
         // Verificar si el producto está en oferta
         if (producto.oferta) {
             // Mostrar información del producto en oferta
-            const precioactual = producto.precio * 0.95;
+            const precioactual = producto.precio * 0.75;
             const productoHTML = `
         <div class="producto" id=${idProducto}>
         <img src="${producto.imagen}" alt="${producto.nombre}" style="width: 100%;">
