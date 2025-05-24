@@ -18,15 +18,6 @@ const productos = [
         descripcion: "Mates de los personajes Stitch, Ángel, Kitty y de Hogwarts (Harry Potter) impresos con material PLA. El precio es por unidad."
     },
     {
-        nombre: "Mate de Pokemon",
-        oferta: false,
-        categoria: "Mates",
-        precio: 7500,
-        unidades: 1,
-        imagen: "img/mate charmander.png",
-        descripcion: "Mate de Pokemon Charmander, impreso con material PLA y pintado a mano. El precio es por unidad."
-    },
-    {
         nombre: "Mate de carpincho",
         oferta: false,
         categoria: "Mates",
@@ -97,15 +88,6 @@ const productos = [
         unidades: 1,
         imagen: "img/planeta.jpg",
         descripcion: "Estructura para armar lampara de la Tierra sobre un pilar de 13 cm de altura. El precio es por unidad."
-    },
-    {
-        nombre: "Macetas de Afrodita y Venus",
-        oferta: false,
-        categoria: "Macetas",
-        precio: 8500,
-        unidades: 1,
-        imagen: "img/venus.jpg",
-        descripcion: "Macetas Venus y Afrodita, de 15 cm de altura. El precio es por unidad."
     },
     {
         nombre: "Macetas Baby Groot",
@@ -243,15 +225,6 @@ const productos = [
         descripcion: "Figuras de Squirtle (10 cm de altura), Charmander (10 cm de altura), Bulbasaur (8 cm de altura), Pikachu (10 cm de altura) y Jigglypuff (8 cm de altura). Impresas con material PLA. El precio es por dos unidades."
     },
     {
-        nombre: "La Bella y la Bestia",
-        oferta: true,
-        categoria: "Figuras",
-        precio: 25000,
-        unidades: 5,
-        imagen: "img/bella y bestia.jpg",
-        descripcion: "Figuras de Din Don (13 cm de altura), Bella (10 cm de altura), Sra.Potts (12 cm de altura), Chip (7 cm de altura) y Lumiere (15 cm de altura). Impresas con material PLA. El precio es por las cinco unidades."
-    },
-    {
         nombre: "Caballeros del zodiaco (Saint Seiya)",
         oferta: true,
         categoria: "Figuras",
@@ -342,15 +315,6 @@ const productos = [
         descripcion: "Porta auricular del modelo de Batman, impreso con material PLA."
     },
     {
-        nombre: "Llaveros de Flork",
-        oferta: false,
-        categoria: "Llaveros",
-        precio: 8000,
-        unidades: 10,
-        imagen: "img/flork.jpg",
-        descripcion: "Llaveros Flork de distintos modelos, 5 cm de largo aproximadamente, impresos con material PLA. El precio es por 10 unidades."
-    },
-    {
         nombre: "Llaveros de equipos",
         oferta: false,
         categoria: "Llaveros",
@@ -360,15 +324,6 @@ const productos = [
         descripcion: "Llaveros de distintos equipos, impresos con material PLA. El precio es por 10 unidades."
     },
     {
-        nombre: "Llaveros de autodefensa",
-        oferta: false,
-        categoria: "Llaveros",
-        precio: 7000,
-        unidades: 5,
-        imagen: "img/llavero gato.jpg",
-        descripcion: "Llaveros de autodefensa con forma de gatos, impresos con material PLA. El precio es por 5 unidades."
-    },
-    {
         nombre: "Llaveros animales porta celulares",
         oferta: false,
         categoria: "Llaveros",
@@ -376,15 +331,6 @@ const productos = [
         unidades: 5,
         imagen: "img/llaveros animales.jpg",
         descripcion: "Llaveros de animales porta celulares, impresos con material PLA. El precio es por 5 unidades."
-    },
-    {
-        nombre: "Set para cocina de Bob esponja",
-        oferta: false,
-        categoria: "Cocina",
-        precio: 10000,
-        unidades: 2,
-        imagen: "img/otros.jpg",
-        descripcion: "Porta esponja de Bob esponja y Porta virulana de Patricio estrella. El precio es por el set."
     },
     {
         nombre: "Cortadores de Mario",
